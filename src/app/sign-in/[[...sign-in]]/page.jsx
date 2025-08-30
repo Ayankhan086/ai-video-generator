@@ -1,4 +1,4 @@
-import { SignUp } from "@clerk/nextjs";
+import { SignIn } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Page() {
@@ -8,7 +8,7 @@ export default function Page() {
             <Image src={'/login.png'} width={500} height={500}/>
         </div>
         <div className="flex justify-center items-center h-screen">
-             <SignUp />
+             <SignIn />
         </div>
     </div>
   )
